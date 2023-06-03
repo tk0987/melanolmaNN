@@ -32,7 +32,9 @@ User can change input shapes in the tensorflow.keras.layers.Input layer. It is 6
 3.	Hardware limitations
 
 In general, this line in a code is crucial:
-130.   model = światowid(1,7,32)
+
+130   model = światowid(1,7,32)
+
 „Światowid” function has three arguments: basic number of trainable parameters, number of classes and batch size. The example above results in consuming <8 GB of my GPU VRAM (230000 trainable parameters, Gigabyte RTX 2080).
 It is advised to start with model = światowid(1,7,1). 
 
