@@ -43,6 +43,7 @@ If User want to run the code on CPU only: please comment the lines connected wit
 If User want to run the code on Windows WSL2 with GPU, please enter this lines into Linux console before:
 
 CUDNN_PATH=$(dirname $(python -c "import nvidia.cudnn;print(nvidia.cudnn.__file__)"))
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 
 4.	Smaller codes in project
