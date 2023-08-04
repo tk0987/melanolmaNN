@@ -51,6 +51,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 There is only one (not crucial to run main network):
   1.	sorter.py
 This code needs proper folder tree already created. It just checks if the image name belongs to a class, than it copies this image to desired folder in a tree.
-This code needs labeled image names – author created a file labels.txt using Microsoft Excel and simple notepad – downloaded dataset had somewhat difficult to understand label assignment.
+This code needs labeled image names – lazy author created a file labels.txt using Microsoft Excel and simple notepad – downloaded dataset had somewhat difficult to understand label assignment.
 
 Please look at the paths in all provided codes – there is high risk of overlooking them.
